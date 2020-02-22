@@ -25,6 +25,10 @@ export class Todo extends Entity {
   })
   isComplete?: boolean;
 
+  @property({
+    type: 'string',
+  })
+  responsible?: string;
 
   constructor(data?: Partial<Todo>) {
     super(data);

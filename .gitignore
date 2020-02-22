@@ -73,4 +73,5 @@ typings/
 .yo-rc.json
 DEVELOPING.md
 Dockerfile
+data/
 
